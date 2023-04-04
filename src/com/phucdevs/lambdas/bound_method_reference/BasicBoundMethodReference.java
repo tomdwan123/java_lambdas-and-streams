@@ -8,8 +8,8 @@ public class BasicBoundMethodReference {
     public static void main(String[] args) {
 
         String name = "Mr. Joe Bloggs";
-        Supplier<String> lowerL = () -> name.toLowerCase();
-        Supplier<String> lowerMR = name::toLowerCase;
+        Supplier<String> lowerL = () -> name.toLowerCase(); // lambda
+        Supplier<String> lowerMR = name::toLowerCase; // method reference
 
         System.out.println(lowerL.get()); // mr. joe bloggs
         System.out.println(lowerMR.get()); // mr. joe bloggs
@@ -18,8 +18,8 @@ public class BasicBoundMethodReference {
         // boolean startsWith(String, int), because we are creating a Predicate
         // which has a functional method of test(T t), the startsWith(String) is used
         // This is where "context" is important
-        Predicate<String> titleL = (title) -> name.startsWith(title);
-        Predicate<String> titleMR = name::startsWith;
+        Predicate<String> titleL = (title) -> name.startsWith(title);// lambda
+        Predicate<String> titleMR = name::startsWith; // method reference
 
         System.out.println(titleL.test("Mr.")); // true
         System.out.println(titleL.test("Ms.")); // false
