@@ -3,7 +3,7 @@ package com.phucdevs.lambdas.predicate_bipredicate;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
-public class FIFromAPI {
+public class BasicPredicateAndBiPredicate {
 
     public static void main(String[] args) {
 

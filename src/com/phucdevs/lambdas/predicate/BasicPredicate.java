@@ -2,7 +2,7 @@ package com.phucdevs.lambdas.predicate;
 
 import java.util.function.Predicate;
 
-public class TestPredicate {
+public class BasicPredicate {
 
     public static void main(String[] args) {
 

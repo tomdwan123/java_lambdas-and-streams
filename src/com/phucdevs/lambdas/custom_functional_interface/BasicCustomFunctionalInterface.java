@@ -6,7 +6,7 @@ interface Evaluate<T> {
     boolean isNegative(T t);
 }
 
-public class TestPredicate {
+class TestPredicate {
 
     public static void main(String[] args) {
         Evaluate<Integer> lambda = i -> i < 0;
