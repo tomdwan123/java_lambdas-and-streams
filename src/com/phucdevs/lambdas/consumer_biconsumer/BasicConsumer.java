@@ -1,4 +1,4 @@
-package com.phucdevs.lambdas.consumer;
+package com.phucdevs.lambdas.consumer_biconsumer;
 
 import java.util.HashMap;
 import java.util.List;
