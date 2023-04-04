@@ -1,4 +1,4 @@
-package com.phucdevs.lambdas.method_reference;
+package com.phucdevs.lambdas.method_references;
 
 import java.util.List;
 
