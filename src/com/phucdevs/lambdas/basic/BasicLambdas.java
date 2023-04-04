@@ -1,4 +1,4 @@
-package com.phucdevs.lambdas;
+package com.phucdevs.lambdas.basic;
 
 interface I {
     void m(); // a functional interface i.e it has only
